@@ -15,6 +15,7 @@ public class PrintNumsAction extends Action{
     }
 
     private void printNumber() {
+        //Logs all the numbers from 1 to 100
         for (int i = 1; i <= 100; i++) {
             logger.log(Level.INFO, String.valueOf(i));
         }
